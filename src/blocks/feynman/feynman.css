@@ -1,0 +1,7 @@
+.feynman {
+  height: 890px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background: no-repeat left bottom url(../../images/feynman.png), #f2f2f2;
+}

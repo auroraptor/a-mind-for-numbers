@@ -1,0 +1,9 @@
+.Header {
+  min-height: 92px;
+  max-height: 100px;
+  display: flex;
+  position: relative;
+  background-color: #f2f2f2;
+  overflow: hidden;
+}
+

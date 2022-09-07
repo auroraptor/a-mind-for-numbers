@@ -1,0 +1,6 @@
+.oakley {
+  display: flex;
+  background-color: #f2f2f2;
+  /* добавляю верхний отступ, чтобы получить соответствие с брифом (160px) -- складываю {margin-top: 100px;} дочернего блока two-columns и {padding-top: 60px} родителя*/
+  padding-top: 60px;
+}

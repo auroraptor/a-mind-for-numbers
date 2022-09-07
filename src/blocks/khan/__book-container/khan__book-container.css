@@ -1,0 +1,5 @@
+.khan__book-container {
+  display: flex;
+  gap: 48px;
+  margin: 68px auto 0 0;
+}
