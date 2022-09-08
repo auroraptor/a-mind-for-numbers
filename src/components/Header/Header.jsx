@@ -1,11 +1,14 @@
 import React from "react";
 import './Header.css';
 import '../../index.css'
+import NavBar from "../NavBar/NavBar";
+import Logo from "../Logo/Logo";
 
 function Header() {
   return (
     <header className="Header">
-      <div className="logo logo_place_header"></div>
+      <Logo></Logo>
+      <NavBar></NavBar>
     </header>
   )
 }

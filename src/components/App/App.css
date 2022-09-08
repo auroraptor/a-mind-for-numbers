@@ -14,12 +14,7 @@
   font-family: 'Inter', 'Arial', sans-serif;
   font-style: normal;
 }
-/* TODO а надо ли оно */
-/* @media screen and (max-width: 880px) {
-  .App{
-    justify-content: space-between;
-  }
-} */
+
 
 
 .App-link {
