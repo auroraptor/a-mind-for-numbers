@@ -5,26 +5,18 @@ import DashBoard from '../Dashboard/Dashboard';
 import Techniques from '../Techniques/Techniques';
 import AboutMe from '../AboutMe/AboutMe';
 import AboutUs from '../AboutUs/AboutUs';
-import {Route, Switch} from 'react-router-dom';
+import {Routes, Route} from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Switch>
-        <Route exact path='/'>
-          <DashBoard />
-        </Route>
-        <Route path='/techniques'>
-          <Techniques />
-        </Route>
-        <Route path='/about-me'>
-          <AboutMe />
-        </Route>
-        <Route path='/about-us'>
-          <AboutUs />
-        </Route>
-      </Switch>
+      <Routes>
+        <Route path='/' element={<DashBoard />} />
+        <Route path='/techniques' element={<Techniques />} />
+        <Route path='/about-me' element={<AboutMe />} />
+        <Route path='/about-us' element={<AboutUs />} />
+      </Routes>
     </div>
   );
 }

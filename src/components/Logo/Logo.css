@@ -4,12 +4,12 @@
 }
 .logo_place_header {
   background-image: url(./logo_place_header.svg);
-  position: absolute;
-  top: 30px;
-  left: 64px;
+  /* position: absolute; */
+  /* top: 30px; */
+  /* left: 64px; */
 }
 
-@media screen and (max-width: 450px) {
+/* @media screen and (max-width: 450px) {
   .logo_place_header {
     left: 26px;
   }
@@ -19,4 +19,4 @@
   .logo_place_header{
     left: calc(26px + (100vw - 450px) / (880 - 450) * ((64 - 26)))
   }
-}
+} */
