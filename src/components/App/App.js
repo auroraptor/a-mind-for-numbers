@@ -13,7 +13,7 @@ function App() {
       <Header />
       <Routes>
         <Route path='/' element={<DashBoard />} />
-        <Route path='/techniques' element={<Techniques />} />
+        <Route path='/techniques/*' element={<Techniques />} />
         <Route path='/about-me' element={<AboutMe />} />
         <Route path='/about-us' element={<AboutUs />} />
       </Routes>
