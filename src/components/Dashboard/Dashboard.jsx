@@ -9,9 +9,8 @@ function DashBoard() {
       <img className="dashboard__main-illustration" src={Brain} alt="эмодзи мозг" />
       <p className="dashboard__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
       </p>
-      {/* <Link to="/techniques" className="link dashboard__link">узнать &#8594;</Link> */}
-      <a className="link" href="#">узнать &#8594;</a>
-
+      <Link to="/techniques" className="link">узнать &#8594;</Link>
+      {/* TODO ^ */}
      <div className="dashboard__square-pic rotation"></div>
   </div>
   )

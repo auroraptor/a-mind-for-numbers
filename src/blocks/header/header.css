@@ -109,6 +109,10 @@
     width: calc(383px + (100vw - 450px) / (880 - 450) * ((765px * 0.8) - 383));
     height: calc(608px + (100vw - 450px) / (880 - 450) * (((608px * 0.8) - 304)));
   }
+  .dashboard__square-pic {
+    height: calc((568px / 2) + (100vw - 450px) / (880 - 450) * (568/ 2));
+    width: calc((568px / 2) + (100vw - 450px) / (880 - 450) * (568/ 2));
+  }
 }
 
 
@@ -119,12 +123,12 @@
   }
 }
 
-@media screen and (max-width: 880px) {
+/* @media screen and (max-width: 880px) {
   .dashboard__square-pic {
     height: calc((568px / 2) + (100vw - 450px) / (880 - 450) * (568/ 2));
     width: calc((568px / 2) + (100vw - 450px) / (880 - 450) * (568/ 2));
   }
-}
+} */
 
 
 @media screen and (max-width: 450px) {

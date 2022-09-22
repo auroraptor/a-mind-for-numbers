@@ -1,12 +1,10 @@
 import React from "react";
-import { Link, Route, Routes,  useLocation} from "react-router-dom";
-import Feynman from "./Feynman/Feynman";
-import Kaufman from "./Kaufman/Kaufman";
-import Oakley from "./Oakley/Oakley";
+import { Link, Route, Routes} from "react-router-dom";
+import Feynman from "../Feynman/Feynman";
+import Kaufman from "../Kaufman/Kaufman";
+import Oakley from "../Oakley/Oakley";
 
 function Techniques() {
-  const {pathname} = useLocation()
-  console.log(pathname);
 
 return (
   <>
