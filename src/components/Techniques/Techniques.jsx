@@ -20,9 +20,9 @@ return (
     </li>
   </ul>
   <Routes>
-    <Route path={`oakley`} element={<Oakley />} />
-    <Route path={`feynman`} element={<Feynman />} />
-    <Route path={`kaufman`} element={<Kaufman />} />
+    <Route element={<Oakley />} path="oakley"/>
+    <Route element={<Feynman />} path="feynman"/>
+    <Route element={<Kaufman />} path="kaufman"/>
   </Routes>
 
   </>

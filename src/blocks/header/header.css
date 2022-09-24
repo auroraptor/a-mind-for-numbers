@@ -96,6 +96,9 @@
   transition: all 0.3s;
 }
 
+.link:hover {
+  cursor: pointer;
+}
 
 @media screen and (max-width: 450px) {
   .dashboard__main-illustration{
