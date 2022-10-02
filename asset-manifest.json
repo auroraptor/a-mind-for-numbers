@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/a-mind-for-numbers/static/css/main.32af16c7.css",
-    "main.js": "/a-mind-for-numbers/static/js/main.99e4c4ec.js",
+    "main.js": "/a-mind-for-numbers/static/js/main.66ce8170.js",
     "static/js/787.7a0cae73.chunk.js": "/a-mind-for-numbers/static/js/787.7a0cae73.chunk.js",
     "static/media/feynman.png": "/a-mind-for-numbers/static/media/feynman.37c65261a56e5998c41c.png",
     "static/media/inter-500.woff": "/a-mind-for-numbers/static/media/inter-500.9053572c46aeb4b16caa.woff",
@@ -17,11 +17,11 @@
     "index.html": "/a-mind-for-numbers/index.html",
     "static/media/kaufman-triangle.svg": "/a-mind-for-numbers/static/media/kaufman-triangle.83d4bfa43e145a5721ee.svg",
     "main.32af16c7.css.map": "/a-mind-for-numbers/static/css/main.32af16c7.css.map",
-    "main.99e4c4ec.js.map": "/a-mind-for-numbers/static/js/main.99e4c4ec.js.map",
+    "main.66ce8170.js.map": "/a-mind-for-numbers/static/js/main.66ce8170.js.map",
     "787.7a0cae73.chunk.js.map": "/a-mind-for-numbers/static/js/787.7a0cae73.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.32af16c7.css",
-    "static/js/main.99e4c4ec.js"
+    "static/js/main.66ce8170.js"
   ]
 }
