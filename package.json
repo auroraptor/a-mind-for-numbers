@@ -1,8 +1,8 @@
 {
   "name": "a-mind-for-numbers",
   "version": "0.1.0",
-  "homepage": "https://auroraptor.github.io/a-mind-for-numbers/",
   "private": true,
+  "homepage": "https://auroraptor.github.io/a-mind-for-numbers/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
