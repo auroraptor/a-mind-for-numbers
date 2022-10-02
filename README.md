@@ -1,6 +1,6 @@
 # A Mind For Numbers 💖✨🧠
 
-![gif](https://media.giphy.com/media/mD870BYDd7BW5Q1rCW/giphy.gif)
+![gif](https://media.giphy.com/media/yqzdXFcqESpeZG9l6R/giphy.gif)
 
 [скоро тут будет красиво ](https://auroraptor.github.io/a-mind-for-numbers/)
 
