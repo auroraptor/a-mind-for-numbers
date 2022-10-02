@@ -1,9 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import './Logo.css';
 
 function Logo () {
   return (
-    <div className="logo logo_place_header"></div>
+    <Link to="about-us" className="logo logo_place_header"/>
   )
 }
 

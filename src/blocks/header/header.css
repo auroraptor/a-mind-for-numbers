@@ -29,8 +29,8 @@
   z-index: 1;
 }
 .dashboard__square-pic {
-  height: 568px;
-  width: 568px;
+  height: calc(568px*.8);
+  width: calc(568px*.8);
   background-color: #2f80ed;
   position: absolute;
   top: 64px;
@@ -38,11 +38,12 @@
   z-index: 0;
 }
 .dashboard__main-illustration {
-  width: calc(765px * 0.8);
-  height: calc(608px * 0.8);
+  object-fit: contain;
+  width: calc(765px * 0.5);
+  height: calc(608px * 0.5);
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: 100px;
   z-index: 10;
 }
 

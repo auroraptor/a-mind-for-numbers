@@ -1,8 +1,5 @@
 import React from "react";
 import { Link, Outlet} from "react-router-dom";
-import Feynman from "../Feynman/Feynman";
-import Kaufman from "../Kaufman/Kaufman";
-import Oakley from "../Oakley/Oakley";
 import './Techniques.css'
 
 function Techniques() {
@@ -10,6 +7,7 @@ function Techniques() {
 return (
   <div className='techniques'>
       <div className="container">
+        <p>скоро тут будет красиво жду макет дизайнера 😋</p>
         <div className="item title">Главные проблемы в&nbsp;обучении</div>
         <div className="item text">
           <p className="paragraph">Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания. Зубрежка быстро выветривается и не приносит пользы.</p>
