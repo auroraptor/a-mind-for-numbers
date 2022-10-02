@@ -1,1 +1,1 @@
-export const basePath = "a-mind-for-numbers/"
+export const basePath = "/a-mind-for-numbers"
