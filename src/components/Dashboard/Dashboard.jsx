@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Brain from '../../images/brain.svg'
+import Brain from '../../images/brain.png'
 
 function DashBoard() {
   return (

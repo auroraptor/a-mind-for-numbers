@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <Header />
       <Routes>
-        <Route path='/' exact element={<DashBoard />} />
+        <Route path='/' element={<DashBoard />} />
         <Route path='/techniques' element={<Techniques />}>
           <Route element={<Feynman />} path="feynman"/>
           <Route element={<Oakley />} path="oakley"/>
