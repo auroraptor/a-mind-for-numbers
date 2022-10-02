@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/a-mind-for-numbers/static/css/main.a554edd6.css",
-    "main.js": "/a-mind-for-numbers/static/js/main.166e3d4f.js",
+    "main.css": "/a-mind-for-numbers/static/css/main.32af16c7.css",
+    "main.js": "/a-mind-for-numbers/static/js/main.99e4c4ec.js",
     "static/js/787.7a0cae73.chunk.js": "/a-mind-for-numbers/static/js/787.7a0cae73.chunk.js",
     "static/media/feynman.png": "/a-mind-for-numbers/static/media/feynman.37c65261a56e5998c41c.png",
     "static/media/inter-500.woff": "/a-mind-for-numbers/static/media/inter-500.9053572c46aeb4b16caa.woff",
@@ -11,17 +11,17 @@
     "static/media/inter-500.woff2": "/a-mind-for-numbers/static/media/inter-500.293fd13dbca5a3e450ef.woff2",
     "static/media/inter-900.woff2": "/a-mind-for-numbers/static/media/inter-900.15ca31c0a2a68f76d2d1.woff2",
     "static/media/inter-400.woff2": "/a-mind-for-numbers/static/media/inter-400.c8ba52b05a9ef10f4758.woff2",
+    "static/media/brain.png": "/a-mind-for-numbers/static/media/brain.6109a90fc60e5cbdea6e.png",
     "static/media/logo_place_header.svg": "/a-mind-for-numbers/static/media/logo_place_header.010e0b2f76730f636a26.svg",
     "static/media/logo_place_footer.svg": "/a-mind-for-numbers/static/media/logo_place_footer.29232c784672042c6be5.svg",
-    "static/media/brain.svg": "/a-mind-for-numbers/static/media/brain.8a66d4f3cfbb7623c369bcecfd92b4f6.svg",
     "index.html": "/a-mind-for-numbers/index.html",
     "static/media/kaufman-triangle.svg": "/a-mind-for-numbers/static/media/kaufman-triangle.83d4bfa43e145a5721ee.svg",
-    "main.a554edd6.css.map": "/a-mind-for-numbers/static/css/main.a554edd6.css.map",
-    "main.166e3d4f.js.map": "/a-mind-for-numbers/static/js/main.166e3d4f.js.map",
+    "main.32af16c7.css.map": "/a-mind-for-numbers/static/css/main.32af16c7.css.map",
+    "main.99e4c4ec.js.map": "/a-mind-for-numbers/static/js/main.99e4c4ec.js.map",
     "787.7a0cae73.chunk.js.map": "/a-mind-for-numbers/static/js/787.7a0cae73.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a554edd6.css",
-    "static/js/main.166e3d4f.js"
+    "static/css/main.32af16c7.css",
+    "static/js/main.99e4c4ec.js"
   ]
 }
