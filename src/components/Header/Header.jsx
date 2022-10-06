@@ -1,12 +1,11 @@
 import React from "react";
-import './Header.css';
-// import '../../index.css'
+import styles from './Header.module.css';
 import NavBar from "../NavBar/NavBar";
 import Logo from "../Logo/Logo";
 
 function Header() {
   return (
-    <header className="header">
+    <header className={styles.header}>
       <Logo></Logo>
       <NavBar></NavBar>
     </header>

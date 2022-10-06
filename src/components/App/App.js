@@ -10,7 +10,7 @@ import Feynman from "../Feynman/Feynman";
 import Oakley from "../Oakley/Oakley";
 import Kaufman from "../Kaufman/Kaufman";
 import { basePath } from "../../utils/const";
-import './App.css'
+import styles from './App.module.css'
 
 function App() {
   const size = useWindowSize();
@@ -19,7 +19,7 @@ function App() {
   return size.width < 880 ? (
     <p>Скоро тут будет мобильная версия </p>
   ) : (
-    <div className="App">
+    <div className={styles.app}>
       <Header />
       <Routes>
         <Route path={`${basePath}/`} element={<DashBoard />} />

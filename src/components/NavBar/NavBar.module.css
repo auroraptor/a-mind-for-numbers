@@ -13,7 +13,7 @@
   align-items: center;
 }
 
-.menu__link {
+.link {
   color: #9CBBFF;
   text-decoration: none;
   font-size: 22px;
@@ -21,7 +21,7 @@
   margin-right: 15px;
 }
 
-.menu__link:last-of-type {
+.link:last-of-type {
   margin-right: 0;
 }
 
