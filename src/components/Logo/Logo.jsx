@@ -5,7 +5,7 @@ import './Logo.css';
 
 function Logo () {
   return (
-    <Link to={`${basePath}/about-us`} className="logo logo_place_header"/>
+    <Link to={`${basePath}/`} className="logo logo_place_header"/>
   )
 }
 
