@@ -6,10 +6,10 @@ import styles from './NavBar.module.css'
 function NavBar() {
   return (
     <nav className={styles.menu}>
-      <NavLink to={`${basePath}/`} className={styles.link}>Домой</NavLink>
+      {/* <NavLink to={`${basePath}/`} className={styles.link}>Домой</NavLink> */}
       <NavLink to={`${basePath}/techniques`} className={styles.link}>Техники обучения</NavLink>
       <NavLink to={`${basePath}/about-me`} className={styles.link}>Обо мне</NavLink>
-      {/* <NavLink to="/about-us" className="menu__link">О Практикуме</NavLink> */}
+      <NavLink to={`${basePath}/about-us`} className={styles.link}>О Практикуме</NavLink>
     </nav>
   )
 }
