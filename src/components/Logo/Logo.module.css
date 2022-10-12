@@ -1,13 +1,16 @@
 .logo {
   width: 183px;
   height: 32px;
-}
-.logo_place_header {
   background-image: url(./logo_place_header.svg);
-  /* position: absolute; */
-  /* top: 30px; */
-  /* left: 64px; */
+  background-size: contain;
+  background-repeat: no-repeat;
 }
+
+ /* .logo_place_header {
+   position: absolute;
+   top: 30px;
+   left: 64px;
+}  */
 
 /* @media screen and (max-width: 450px) {
   .logo_place_header {

@@ -5,7 +5,7 @@ import styles from './Techniques.module.css'
 function Techniques() {
 
 return (
-  <div className='techniques'>
+  <div className={styles.techniques}>
       <div className={styles.container}>
         <p>скоро тут будет красиво жду макет дизайнера 😋</p>
         <div className={styles.title}>Главные проблемы в&nbsp;обучении</div>
