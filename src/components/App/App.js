@@ -24,9 +24,9 @@ function App() {
       <Routes>
         <Route path={`${basePath}/`} element={<DashBoard />} />
         <Route path={`${basePath}/techniques`} element={<Techniques />}>
-          <Route element={<Feynman />} path="feynman" />
-          <Route element={<Oakley />} path="oakley" />
-          <Route element={<Kaufman />} path="kaufman" />
+          <Route path="feynman" element={<Feynman />} />
+          <Route path="oakley" element={<Oakley />} />
+          <Route path="kaufman" element={<Kaufman />} />
         </Route>
         <Route path={`${basePath}/about-me`} element={<AboutMe />} />
         <Route path={`${basePath}/about-us`} element={<AboutUs />} />
