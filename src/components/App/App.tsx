@@ -14,10 +14,11 @@ import styles from './App.module.css'
 
 function App() {
   const size = useWindowSize();
+  const width = size.width;
 
 
-  return size.width < 880 ? (
-    <p>Скоро тут будет мобильная версия </p>
+  return width < 880 ? (
+    <p> Скоро тут будет мобильная версия </p>
   ) : (
     <div className={styles.app}>
       <Header />
