@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import { basePath } from '../../utils/const';
 import '../../index.css';
 
 function Footer() {
@@ -13,9 +15,9 @@ function Footer() {
         <h4 className="footer__column-heading">О Практикуме</h4>
         <nav className="footer__column-links">
           <ul className="footer__list">
-            <li><a className="footer__column-link" href="#">Главная</a></li>
-            <li><a className="footer__column-link" href="#">Концепция</a></li>
-            <li><a className="footer__column-link" href="#">Наставники</a></li>
+            <li><Link className="footer__column-link" to={`${basePath}/`}>Главная</Link></li>
+            <li><Link className="footer__column-link" to={`${basePath}/`}>Концепция</Link></li>
+            <li><Link className="footer__column-link" to={`${basePath}/`}>Наставники</Link></li>
           </ul>
         </nav>
       </div>
@@ -23,9 +25,9 @@ function Footer() {
         <h4 className="footer__column-heading">Соцсети</h4>
         <nav className="footer__column-links">
           <ul className="footer__list">
-            <li><a className="footer__column-link" href="#"><img className="footer__social-icon" src="./images/facebook_color_white.svg" alt="Facebook логотип" /> Facebook</a></li>
-            <li><a className="footer__column-link" href="#"><img className="footer__social-icon" src="./images/vk_color_white.svg" alt="ВКонтакте логотип" /> ВКонтакте</a></li>
-            <li><a className="footer__column-link" href="#"><img className="footer__social-icon" src="./images/instagram_color_white.svg" alt="Instagram логотип" /> Instagram</a></li>
+            <li><Link className="footer__column-link" to={`${basePath}/`}><img className="footer__social-icon" src="./images/facebook_color_white.svg" alt="Facebook логотип" /> Facebook</Link></li>
+            <li><Link className="footer__column-link" to={`${basePath}/`}><img className="footer__social-icon" src="./images/vk_color_white.svg" alt="ВКонтакте логотип" /> ВКонтакте</Link></li>
+            <li><Link className="footer__column-link" to={`${basePath}/`}><img className="footer__social-icon" src="./images/instagram_color_white.svg" alt="Instagram логотип" /> Instagram</Link></li>
           </ul>
         </nav>
       </div>
