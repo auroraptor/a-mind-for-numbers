@@ -11,6 +11,7 @@ import Oakley from "../Oakley/Oakley";
 import Kaufman from "../Kaufman/Kaufman";
 import { basePath } from "../../utils/const";
 import styles from './App.module.css'
+import Footer from "../Footer/Footer";
 
 function App() {
   const size = useWindowSize();

@@ -25,9 +25,7 @@ function Footer() {
         <h4 className="footer__column-heading">Соцсети</h4>
         <nav className="footer__column-links">
           <ul className="footer__list">
-            <li><Link className="footer__column-link" to={`${basePath}/`}><img className="footer__social-icon" src="./images/facebook_color_white.svg" alt="Facebook логотип" /> Facebook</Link></li>
             <li><Link className="footer__column-link" to={`${basePath}/`}><img className="footer__social-icon" src="./images/vk_color_white.svg" alt="ВКонтакте логотип" /> ВКонтакте</Link></li>
-            <li><Link className="footer__column-link" to={`${basePath}/`}><img className="footer__social-icon" src="./images/instagram_color_white.svg" alt="Instagram логотип" /> Instagram</Link></li>
           </ul>
         </nav>
       </div>
