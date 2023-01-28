@@ -10,7 +10,7 @@ import Feynman from "../Feynman/Feynman";
 import Oakley from "../Oakley/Oakley";
 import Kaufman from "../Kaufman/Kaufman";
 import { basePath } from "../../utils/const";
-import styles from './App.module.css'
+import styles from './App.module.css';
 
 function App() {
   const size = useWindowSize();
